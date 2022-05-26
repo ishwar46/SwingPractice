@@ -1,11 +1,9 @@
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.*;
 
 class LoginForm extends JFrame {
 
     Container c;
-
     JLabel lblTitle;
     JLabel lblUsername;
     JLabel lblPassword;
@@ -29,7 +27,9 @@ class LoginForm extends JFrame {
 
 
         lblTitle = new JLabel("Login Form");
-        lblTitle.setBounds(150,-20,90,100);
+        lblTitle.setBounds(120,-30,200,100);
+        lblTitle.setFont(new Font("Verdana",Font.PLAIN,20));
+
         c.add(lblTitle);
 
         lblUsername = new JLabel("Username");
@@ -48,12 +48,15 @@ class LoginForm extends JFrame {
         c.add(password);
 
 
-
         btn_login = new JButton("Login");
-        btn_login.setBounds(100,150,70,20);
+        btn_login.setBounds(120,150,70,20);
         btn_login.setBackground(Color.green);
         c.add(btn_login);
 
+        btn_signup = new JButton("Signup");
+        btn_signup.setBounds(200,150,90,20);
+        btn_signup.setBackground(Color.PINK);
+        c.add(btn_signup);
 
         setVisible(true);
 
