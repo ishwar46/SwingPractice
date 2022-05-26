@@ -1,3 +1,5 @@
+package SignUp;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -39,7 +41,7 @@ class SignUpPage extends JFrame {
         lbl_Title.setFont(new Font("San Serif",Font.BOLD,20));
         lbl_Title.setForeground(Color.CYAN);
         cont.add(lbl_Title);
-        
+
 
     }
 
