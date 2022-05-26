@@ -20,6 +20,7 @@ class LoginForm extends JFrame {
         setSize(400,300);
         //setLocation(100,100);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setResizable(false);
 
         c=getContentPane();
         c.setLayout(null);
