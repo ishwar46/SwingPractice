@@ -74,12 +74,25 @@ class LoginPage  extends JFrame {
   checkBox_Password = new JCheckBox();
   checkBox_Password.setBounds(200,200,20,20);
   cont.add(checkBox_Password);
+  checkBox_Password.setBackground(Color.GRAY);
 
   //Checkbox label
 
   lbl_showPass = new JLabel("Show Password");
-  lbl_showPass.setBounds(250,200,200,20);
+  lbl_showPass.setBounds(220,200,200,20);
   cont.add(lbl_showPass);
+
+  //Note
+
+  lbl_Footer = new JLabel("Don't have an account? SignUp");
+  lbl_Footer.setBounds(200,230,200,20);
+  cont.add(lbl_Footer);
+
+  //Login Button
+
+  btn_login = new JButton("Login");
+  btn_login.setBounds(200,250,80,30);
+  cont.add(btn_login);
 
 
 
