@@ -5,12 +5,6 @@ import java.awt.*;
 
 class LoginPage  extends JFrame {
 
- /*JFrame frame = new JFrame();
- ImageIcon bgImage;*/
-
-
-
-
  Container cont;
  JLabel lbl_Title;
  JLabel lbl_Username;
@@ -48,60 +42,66 @@ class LoginPage  extends JFrame {
   //Username Label
 
   lbl_Username = new JLabel("Username");
-  lbl_Username.setBounds(200,80,100,20);
+  lbl_Username.setFont(new Font("San Serif",Font.BOLD,13));
+  lbl_Username.setBounds(200,100,100,20);
+  lbl_Username.setForeground(Color.white);
   cont.add(lbl_Username);
 
   //TextBoxUsername
 
   txt_user = new JTextField();
-  txt_user.setBounds(200,130,200,20);
+  txt_user.setBounds(200,130,200,25);
   cont.add(txt_user);
 
   //Password
 
   lbl_Password = new JLabel("Password");
-  lbl_Password.setBounds(200,150,100,20);
+  lbl_Password.setFont(new Font("San Serif",Font.BOLD,13));
+  lbl_Password.setBounds(200,170,100,20);
+  lbl_Password.setForeground(Color.white);
   cont.add(lbl_Password);
 
   //PasswordTextBox
 
   password = new JPasswordField();
-  password.setBounds(200,170,200,20);
+  password.setBounds(200,200,200,25);
   cont.add(password);
 
   //Checkbox
 
   checkBox_Password = new JCheckBox();
-  checkBox_Password.setBounds(200,200,20,20);
+  checkBox_Password.setBounds(200,235,20,20);
   cont.add(checkBox_Password);
   checkBox_Password.setBackground(Color.GRAY);
 
   //Checkbox label
 
   lbl_showPass = new JLabel("Show Password");
-  lbl_showPass.setBounds(220,200,200,20);
+  lbl_showPass.setBounds(220,235,200,20);
   cont.add(lbl_showPass);
 
   //Note
 
   lbl_Footer = new JLabel("Don't have an account? SignUp");
-  lbl_Footer.setBounds(200,230,200,20);
+  lbl_Password.setFont(new Font("San Serif",Font.BOLD,12));
+  lbl_Footer.setBounds(200,270,200,20);
   cont.add(lbl_Footer);
 
   //Login Button
 
   btn_login = new JButton("Login");
-  btn_login.setBounds(200,260,80,30);
+  btn_login.setBounds(200,300,80,30);
+  btn_login.setForeground(Color.white);
+  btn_login.setBackground(Color.CYAN);
   cont.add(btn_login);
 
   //SignUp Button
 
   btn_signup = new JButton("SignUp");
-  btn_signup.setBounds(300,260,80,30);
+  btn_signup.setBounds(300,300,80,30);
+  btn_signup.setForeground(Color.white);
+  btn_signup.setBackground(Color.green);
   cont.add(btn_signup);
-
-
-
 
 
 
