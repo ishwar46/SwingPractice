@@ -18,7 +18,7 @@ class LoginForm extends JFrame {
     public LoginForm(){
         setTitle("Login Page");
         setSize(400,300);
-        setLocation(100,100);
+        //setLocation(100,100);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
 
         c=getContentPane();
@@ -58,12 +58,13 @@ class LoginForm extends JFrame {
         btn_signup.setBackground(Color.PINK);
         c.add(btn_signup);
 
-        setVisible(true);
+        //setVisible(true);
 
     }
 
     public static void main(String[] args) {
-        LoginForm frame = new LoginForm();
+        new LoginForm().setVisible(true);
+        //LoginForm frame = new LoginForm();
     }
 
 }
