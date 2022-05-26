@@ -91,8 +91,15 @@ class LoginPage  extends JFrame {
   //Login Button
 
   btn_login = new JButton("Login");
-  btn_login.setBounds(200,250,80,30);
+  btn_login.setBounds(200,260,80,30);
   cont.add(btn_login);
+
+  //SignUp Button
+
+  btn_signup = new JButton("SignUp");
+  btn_signup.setBounds(300,260,80,30);
+  cont.add(btn_signup);
+
 
 
 
