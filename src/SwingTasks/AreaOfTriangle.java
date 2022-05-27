@@ -6,9 +6,12 @@ import java.awt.event.ActionListener;
 
 public class AreaOfTriangle extends JFrame implements ActionListener {
 
-    JLabel length,breadth,lblResult;
+    JLabel length;
+    JLabel breadth;
+    JLabel lblResult;
     JButton btn_area;
-    JTextField txtLength,txtbreadth;
+    JTextField txtLength;
+    JTextField txtbreadth;
 
 
     AreaOfTriangle() {
