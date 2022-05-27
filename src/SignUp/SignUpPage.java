@@ -156,18 +156,6 @@ class SignUpPage extends JFrame {
         btn_signup.setForeground(Color.white);
         btn_signup.setBackground(Color.green);
         cont.add(btn_signup);
-
-
-
-
-
-
-
-
-
-
-
-
     }
 
     public static void main(String[] args) {
