@@ -29,7 +29,7 @@ class LoginPage  extends JFrame implements ActionListener {
 
   //bgImage = new ImageIcon(this.getClass().getResource("/bg.png"));
   try {
-   setContentPane(new JLabel(new ImageIcon(ImageIO.read(new File("resourses//bgimage.jpg")))));
+   setContentPane(new JLabel(new ImageIcon(ImageIO.read(new File("resourses//bgimage.png")))));
   }
   catch (Exception e){
    e.printStackTrace();
@@ -122,10 +122,6 @@ class LoginPage  extends JFrame implements ActionListener {
   lblMessage = new JLabel("");
   lblMessage.setBounds(250,350,200,30);
   cont.add(lblMessage);
-
-
-
-
 
 
  }
